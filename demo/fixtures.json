@@ -1,0 +1,83 @@
+{
+  "notice": "Все числа вымышлены. Срезы и графики подготовлены для демонстрации интерфейса и не являются статистикой рынка.",
+  "roles": ["ML Engineer", "Data Architect", "Data Engineer", "Cloud Engineer", "DevOps Engineer", "Data Scientist", "Security Engineer", "Backend Developer", "Frontend Developer", "Data Analyst"],
+  "levels": ["Junior", "Middle", "Senior", "Lead"],
+  "years": [2021, 2022, 2023, 2024, 2025],
+  "histogram_bins": ["0–40", "40–60", "60–80", "80–100", "100–120", "120–140", "140–160", "160–180", "180–200", "200–240", "240–300", "300+"],
+  "scenarios": {
+    "global": {
+      "label": "Весь рынок", "eyebrow": "GLOBAL VIEW", "description": "Разные страны, уровни опыта и форматы работы", "period": "2021–2025", "geography": "Все страны", "format": "Все форматы",
+      "metrics": {"median": 128000, "mean": 139800, "records": 12480, "countries": 42, "remote": 38},
+      "roles_mean": [193000, 185000, 168000, 159000, 151000, 146000, 139000, 128000, 116000, 94000],
+      "roles_median": [184000, 176000, 158000, 152000, 144000, 137000, 133000, 121000, 109000, 88000],
+      "trend_mean": [102000, 111000, 120500, 131000, 139800],
+      "trend_median": [93000, 101000, 110000, 120000, 128000],
+      "trend_growth": [null, 8.8, 8.6, 8.7, 6.7],
+      "histogram": [210, 520, 1100, 1820, 2130, 2210, 1640, 1190, 790, 510, 270, 90],
+      "box": {"q1": [48000, 79000, 119000, 151000], "median": [62000, 103000, 151000, 192000], "q3": [79000, 128000, 181000, 230000], "lower": [27000, 43000, 68000, 89000], "upper": [111000, 178000, 251000, 318000]},
+      "heatmap": [[56000, 65000, 71000], [89000, 106000, 118000], [133000, 156000, 179000], [166000, 201000, 238000]],
+      "work_share": [38, 24, 38], "work_salary": [145000, 134000, 138000],
+      "scatter": {"ratio": [0,0,0,0,0,0,50,50,50,50,50,50,100,100,100,100,100,100], "salary": [52000,78000,103000,142000,171000,212000,63000,86000,118000,151000,186000,228000,59000,97000,128000,168000,201000,249000], "level": [0,0,1,2,2,3,0,1,1,2,3,3,0,1,1,2,3,3]},
+      "insight": "От первого оффера до новой роли", "insight_text": "Сравни специализации, опыт и формат работы. Сейчас ты исследуешь макет; позже эти графики построит твой код."
+    },
+    "us": {
+      "label": "США · 2025", "eyebrow": "UNITED STATES", "description": "Пример локального среза для одной страны", "period": "2025", "geography": "США", "format": "Все форматы",
+      "metrics": {"median": 162000, "mean": 174600, "records": 4280, "countries": 1, "remote": 44},
+      "roles_mean": [236000,225000,206000,194000,185000,180000,172000,161000,145000,119000],
+      "roles_median": [224000,214000,195000,184000,176000,169000,163000,152000,137000,112000],
+      "trend_mean": [126000,138000,149000,164000,174600],
+      "trend_median": [116000,127000,137000,151000,162000],
+      "trend_growth": [null,9.5,8.0,10.1,6.5],
+      "histogram": [10,30,100,200,350,560,680,790,640,500,320,100],
+      "box": {"q1": [65000,103000,151000,185000], "median": [81000,131000,186000,234000], "q3": [103000,158000,220000,281000], "lower": [43000,72000,97000,128000], "upper": [139000,206000,293000,379000]},
+      "heatmap": [[75000,86000,94000],[113000,132000,149000],[163000,189000,218000],[205000,247000,291000]],
+      "work_share": [44,26,30], "work_salary": [182000,168000,170000],
+      "scatter": {"ratio": [0,0,0,0,50,50,50,50,100,100,100,100], "salary": [74000,119000,181000,237000,83000,137000,193000,258000,89000,149000,211000,287000], "level": [0,1,2,3,0,1,2,3,0,1,2,3]},
+      "insight": "Одна страна — другой масштаб", "insight_text": "Демосрез показывает, как будет выглядеть сравнение внутри одного рынка. Выводы по настоящим данным появятся после твоих расчётов."
+    },
+    "europe": {
+      "label": "Европа · 2025", "eyebrow": "EUROPE VIEW", "description": "Пример регионального среза в единой валюте", "period": "2025", "geography": "Европа", "format": "Все форматы",
+      "metrics": {"median": 86000, "mean": 94200, "records": 3160, "countries": 18, "remote": 32},
+      "roles_mean": [137000,128000,116000,109000,103000,98000,94000,87000,79000,65000],
+      "roles_median": [128000,120000,109000,102000,97000,92000,88000,81000,74000,61000],
+      "trend_mean": [71000,76000,82000,89000,94200],
+      "trend_median": [65000,69000,75000,81000,86000],
+      "trend_growth": [null,7.0,7.9,8.5,5.8],
+      "histogram": [110,440,710,760,580,330,140,50,20,10,10,0],
+      "box": {"q1": [32000,53000,79000,103000], "median": [42000,69000,101000,132000], "q3": [54000,86000,122000,159000], "lower": [23000,34000,51000,72000], "upper": [74000,117000,168000,211000]},
+      "heatmap": [[37000,44000,51000],[61000,72000,83000],[89000,106000,123000],[115000,138000,165000]],
+      "work_share": [32,38,30], "work_salary": [101000,92000,90000],
+      "scatter": {"ratio": [0,0,0,0,50,50,50,50,100,100,100,100], "salary": [38000,63000,92000,123000,44000,72000,106000,137000,47000,81000,118000,156000], "level": [0,1,2,3,0,1,2,3,0,1,2,3]},
+      "insight": "Сравнивай в одной валюте", "insight_text": "Все суммы макета указаны в USD за год. В настоящем датасете для такого сравнения пригодится столбец salary_in_usd."
+    },
+    "remote": {
+      "label": "Удалённая работа · 2025", "eyebrow": "REMOTE FIRST", "description": "Пример среза полностью удалённой работы", "period": "2025", "geography": "Все страны", "format": "Удалённо",
+      "metrics": {"median": 141000, "mean": 153200, "records": 2560, "countries": 31, "remote": 100},
+      "roles_mean": [211000,202000,184000,176000,168000,159000,152000,141000,128000,103000],
+      "roles_median": [199000,191000,174000,166000,158000,150000,143000,132000,120000,97000],
+      "trend_mean": [109000,119000,130000,143000,153200],
+      "trend_median": [99000,109000,119000,131000,141000],
+      "trend_growth": [null,9.2,9.2,10.0,7.1],
+      "histogram": [20,60,140,240,340,460,420,330,220,170,120,40],
+      "box": {"q1": [53000,87000,131000,166000], "median": [69000,114000,167000,212000], "q3": [87000,142000,201000,254000], "lower": [31000,51000,78000,104000], "upper": [123000,195000,277000,351000]},
+      "heatmap": [[61000,72000,79000],[98000,117000,131000],[147000,174000,198000],[184000,222000,263000]],
+      "work_share": [100,0,0], "work_salary": [153200,null,null],
+      "scatter": {"ratio": [100,100,100,100,100,100,100,100], "salary": [56000,79000,101000,128000,148000,182000,207000,261000], "level": [0,0,1,1,2,2,3,3]},
+      "insight": "Карьера без привязки к офису", "insight_text": "В этом макете остаётся только удалённая работа. Нулевые сегменты и отсутствующие категории графики обрабатывают автоматически."
+    }
+  },
+  "records": [
+    {"work_year":2025,"experience_level":"SE","employment_type":"FT","job_title":"ML Engineer","salary":193000,"salary_currency":"USD","salary_in_usd":193000,"remote_ratio":100,"employee_residence":"US","company_location":"US","company_size":"L"},
+    {"work_year":2025,"experience_level":"MI","employment_type":"FT","job_title":"Data Engineer","salary":118000,"salary_currency":"USD","salary_in_usd":118000,"remote_ratio":50,"employee_residence":"DE","company_location":"DE","company_size":"M"},
+    {"work_year":2024,"experience_level":"EN","employment_type":"FT","job_title":"Data Analyst","salary":62000,"salary_currency":"USD","salary_in_usd":62000,"remote_ratio":0,"employee_residence":"GB","company_location":"GB","company_size":"M"},
+    {"work_year":2025,"experience_level":"SE","employment_type":"FT","job_title":"DevOps Engineer","salary":151000,"salary_currency":"USD","salary_in_usd":151000,"remote_ratio":100,"employee_residence":"US","company_location":"US","company_size":"L"},
+    {"work_year":2025,"experience_level":"EX","employment_type":"FT","job_title":"Data Architect","salary":225000,"salary_currency":"USD","salary_in_usd":225000,"remote_ratio":50,"employee_residence":"US","company_location":"US","company_size":"L"},
+    {"work_year":2023,"experience_level":"MI","employment_type":"FT","job_title":"Frontend Developer","salary":79000,"salary_currency":"USD","salary_in_usd":79000,"remote_ratio":100,"employee_residence":"ES","company_location":"GB","company_size":"S"},
+    {"work_year":2025,"experience_level":"SE","employment_type":"FT","job_title":"Security Engineer","salary":94000,"salary_currency":"USD","salary_in_usd":94000,"remote_ratio":0,"employee_residence":"FR","company_location":"FR","company_size":"L"},
+    {"work_year":2024,"experience_level":"MI","employment_type":"FT","job_title":"Backend Developer","salary":128000,"salary_currency":"USD","salary_in_usd":128000,"remote_ratio":100,"employee_residence":"CA","company_location":"US","company_size":"M"},
+    {"work_year":2025,"experience_level":"EN","employment_type":"PT","job_title":"Data Scientist","salary":65000,"salary_currency":"USD","salary_in_usd":65000,"remote_ratio":50,"employee_residence":"NL","company_location":"NL","company_size":"S"},
+    {"work_year":2025,"experience_level":"SE","employment_type":"FT","job_title":"Cloud Engineer","salary":194000,"salary_currency":"USD","salary_in_usd":194000,"remote_ratio":100,"employee_residence":"US","company_location":"US","company_size":"L"},
+    {"work_year":2022,"experience_level":"MI","employment_type":"CT","job_title":"Data Engineer","salary":98000,"salary_currency":"USD","salary_in_usd":98000,"remote_ratio":100,"employee_residence":"PL","company_location":"DE","company_size":"M"},
+    {"work_year":2021,"experience_level":"EN","employment_type":"FT","job_title":"Backend Developer","salary":48000,"salary_currency":"USD","salary_in_usd":48000,"remote_ratio":0,"employee_residence":"IN","company_location":"IN","company_size":"S"}
+  ]
+}

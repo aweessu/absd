@@ -1,0 +1,19 @@
+[theme]
+base = "dark"
+primaryColor = "#9f91ff"
+backgroundColor = "#0b0e16"
+secondaryBackgroundColor = "#141925"
+textColor = "#e8ebf4"
+font = "sans serif"
+
+[server]
+headless = true
+address = "127.0.0.1"
+port = 8501
+fileWatcherType = "poll"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
